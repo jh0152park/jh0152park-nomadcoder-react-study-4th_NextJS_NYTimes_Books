@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: black;
+    background: ghostwhite;
+}
+
+.container {
+    border-top-left-radius: 17px 140px;
+    border-top-right-radius: 130px 10px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 24px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border: solid 3px #6e7491;
+    padding: 40px 40px;
+    height: 70px;
+    font-size: 40px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    background-color: ghostwhite;
+    zindex: 100;
+}
+
+.header {
+    border-bottom-left-radius: 11px 7px;
+    border-bottom-right-radius: 11px 7px;
+    border-bottom: solid 7px #151515;
+}
+
+.header:hover {
+    border-bottom-left-radius: 11px 7px;
+    border-bottom-right-radius: 11px 7px;
+    border-bottom: solid 7px #6e7491;
+    cursor: pointer;
+    transition: all 0.13s ease-in;
+}
+
+.button_container {
+    border-top-left-radius: 17px 140px;
+    border-top-right-radius: 130px 10px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 24px 120px;
+    border: solid 3px #6e7491;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 15px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    background-color: ghostwhite;
+    position: relative;
+    zindex: 1;
+}
+
+.button_container:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.5);
+    transition: all 0.13s ease-in;
+}
+
+.button_container:active {
+    border: solid 3px #008dda;
+}
+
+.book {
+    border-bottom-left-radius: 140px 29px;
+    border-bottom-right-radius: 37px 140px;
+    border: solid 1px #6e7491;
+    border-top: none;
+    margin: 15px 15px;
+    padding-bottom: 10px;
+    width: 270px;
+    max-width: 270px;
+    height: 700px;
+    max-height: 700px;
+    box-shadow: 15px 25px 18px -10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    zindex: 1;
+}
+
+.book:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    box-shadow: 10px 15px 8px -10px rgba(0, 0, 0, 0.5);
+    transition: all 0.13s ease-in;
+}
+
+.buy {
+    border-top-left-radius: 17px 140px;
+    border-top-right-radius: 130px 10px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 24px 120px;
+    border: solid 3px #6e7491;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    background-color: ghostwhite;
+    zindex: -1;
+}
+
+.buy:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.5);
+    transition: all 0.13s ease-in;
+}
+
+.buy:active {
+    border: solid 3px #008dda;
+}
